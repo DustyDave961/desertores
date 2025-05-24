@@ -1,139 +1,140 @@
+desertores = {}
 desertores.registered_ores = {
-    -- Coal
-    {
-        ore            = "default:stone_with_coal",
-        clust_scarcity = 8 * 8 * 8,
-        clust_num_ores = 9,
-        clust_size     = 3,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
-    {
-        ore            = "default:stone_with_coal",
-        clust_scarcity = 8 * 8 * 8,
-        clust_num_ores = 8,
-        clust_size     = 3,
-        y_max          = 64,
-        y_min          = -127,
-    },
-    {
-        ore            = "default:stone_with_coal",
-        clust_scarcity = 12 * 12 * 12,
-        clust_num_ores = 30,
-        clust_size     = 5,
-        y_max          = -128,
-        y_min          = -31000,
-    },
+	-- Coal
+	{
+		ore            = "default:stone_with_coal",
+		clust_scarcity = 8 * 8 * 8,
+		clust_num_ores = 9,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
+	{
+		ore            = "default:stone_with_coal",
+		clust_scarcity = 8 * 8 * 8,
+		clust_num_ores = 8,
+		clust_size     = 3,
+		y_max          = 64,
+		y_min          = -127,
+	},
+	{
+		ore            = "default:stone_with_coal",
+		clust_scarcity = 12 * 12 * 12,
+		clust_num_ores = 30,
+		clust_size     = 5,
+		y_max          = -128,
+		y_min          = -31000,
+	},
 
-    -- Tin
-    {
-        ore            = "default:stone_with_tin",
-        clust_scarcity = 10 * 10 * 10,
-        clust_num_ores = 5,
-        clust_size     = 3,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
-    {
-        ore            = "default:stone_with_tin",
-        clust_scarcity = 13 * 13 * 13,
-        clust_num_ores = 4,
-        clust_size     = 3,
-        y_max          = -64,
-        y_min          = -127,
-    },
-    {
-        ore            = "default:stone_with_tin",
-        clust_scarcity = 10 * 10 * 10,
-        clust_num_ores = 5,
-        clust_size     = 3,
-        y_max          = -128,
-        y_min          = -31000,
-    },
+	-- Tin
+	{
+		ore            = "default:stone_with_tin",
+		clust_scarcity = 10 * 10 * 10,
+		clust_num_ores = 5,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
+	{
+		ore            = "default:stone_with_tin",
+		clust_scarcity = 13 * 13 * 13,
+		clust_num_ores = 4,
+		clust_size     = 3,
+		y_max          = -64,
+		y_min          = -127,
+	},
+	{
+		ore            = "default:stone_with_tin",
+		clust_scarcity = 10 * 10 * 10,
+		clust_num_ores = 5,
+		clust_size     = 3,
+		y_max          = -128,
+		y_min          = -31000,
+	},
 
-    -- Copper
-    {
-        ore            = "default:stone_with_copper",
-        clust_scarcity = 9 * 9 * 9,
-        clust_num_ores = 5,
-        clust_size     = 3,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
-    {
-        ore            = "default:stone_with_copper",
-        clust_scarcity = 12 * 12 * 12,
-        clust_num_ores = 4,
-        clust_size     = 3,
-        y_max          = -64,
-        y_min          = -127,
-    },
-    {
-        ore            = "default:stone_with_copper",
-        clust_scarcity = 9 * 9 * 9,
-        clust_num_ores = 5,
-        clust_size     = 3,
-        y_max          = -128,
-        y_min          = -31000,
-    },
+	-- Copper
+	{
+		ore            = "default:stone_with_copper",
+		clust_scarcity = 9 * 9 * 9,
+		clust_num_ores = 5,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
+	{
+		ore            = "default:stone_with_copper",
+		clust_scarcity = 12 * 12 * 12,
+		clust_num_ores = 4,
+		clust_size     = 3,
+		y_max          = -64,
+		y_min          = -127,
+	},
+	{
+		ore            = "default:stone_with_copper",
+		clust_scarcity = 9 * 9 * 9,
+		clust_num_ores = 5,
+		clust_size     = 3,
+		y_max          = -128,
+		y_min          = -31000,
+	},
 
-    -- Iron
-    {
-        ore            = "default:stone_with_iron",
-        clust_scarcity = 9 * 9 * 9,
-        clust_num_ores = 12,
-        clust_size     = 3,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
-    {
-        ore            = "default:stone_with_iron",
-        clust_scarcity = 7 * 7 * 7,
-        clust_num_ores = 5,
-        clust_size     = 3,
-        y_max          = -128,
-        y_min          = -255,
-    },
+	-- Iron
+	{
+		ore            = "default:stone_with_iron",
+		clust_scarcity = 9 * 9 * 9,
+		clust_num_ores = 12,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
+	{
+		ore            = "default:stone_with_iron",
+		clust_scarcity = 7 * 7 * 7,
+		clust_num_ores = 5,
+		clust_size     = 3,
+		y_max          = -128,
+		y_min          = -255,
+	},
 
-    -- Gold
-    {
-        ore            = "default:stone_with_gold",
-        clust_scarcity = 13 * 13 * 13,
-        clust_num_ores = 5,
-        clust_size     = 3,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
+	-- Gold
+	{
+		ore            = "default:stone_with_gold",
+		clust_scarcity = 13 * 13 * 13,
+		clust_num_ores = 5,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
 
-    -- Mese crystal
-    {
-        ore            = "default:stone_with_mese",
-        clust_scarcity = 14 * 14 * 14,
-        clust_num_ores = 5,
-        clust_size     = 3,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
+	-- Mese crystal
+	{
+		ore            = "default:stone_with_mese",
+		clust_scarcity = 14 * 14 * 14,
+		clust_num_ores = 5,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
 
-    -- Diamond
-    {
-        ore            = "default:stone_with_diamond",
-        clust_scarcity = 15 * 15 * 15,
-        clust_num_ores = 4,
-        clust_size     = 3,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
+	-- Diamond
+	{
+		ore            = "default:stone_with_diamond",
+		clust_scarcity = 15 * 15 * 15,
+		clust_num_ores = 4,
+		clust_size     = 3,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
 
-    -- Mese block
-    {
-        ore            = "default:mese",
-        clust_scarcity = 36 * 36 * 36,
-        clust_num_ores = 3,
-        clust_size     = 2,
-        y_max          = 31000,
-        y_min          = 1025,
-    },
+	-- Mese block
+	{
+		ore            = "default:mese",
+		clust_scarcity = 36 * 36 * 36,
+		clust_num_ores = 3,
+		clust_size     = 2,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
 }
 
 --Dense ores and more ores
@@ -261,7 +262,7 @@ for _, def in ipairs(desertores.registered_ores) do
             "default:permafrost_with_moss", 
             "default:permafrost_with_stones",
             "default:cave_ice",
-            "default:gravel"}
-	end
+            "default:gravel"
+		}
 	core.register_ore(def)
 end
