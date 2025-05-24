@@ -254,15 +254,15 @@ end
 for _, def in ipairs(desertores.registered_ores) do
 	def.ore_type = def.ore_type or "scatter"
 	def.wherein = def.wherein or {
-            "default:desert_stone", 
-            "default:sandstone", 
-            "default:desert_sandstone", 
-            "default:silver_sandstone", 
-            "default:permafrost", 
-            "default:permafrost_with_moss", 
-            "default:permafrost_with_stones",
-            "default:cave_ice",
-            "default:gravel"
+		"default:desert_stone", 
+		"default:sandstone", 
+		"default:desert_sandstone", 
+		"default:silver_sandstone", 
+		"default:permafrost", 
+		"default:permafrost_with_moss", 
+		"default:permafrost_with_stones",
+		"default:cave_ice",
+		"default:gravel"
 	}
 	core.register_ore(def)
 end
