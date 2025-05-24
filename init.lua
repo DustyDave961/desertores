@@ -3,7 +3,7 @@ desertores.registered_ores = {
 	-- Coal
 	{
 		ore            = "default:stone_with_coal",
-		clust_scarcity = 8 * 8 * 8,
+		clust_scarcity = 8 ^ 3,
 		clust_num_ores = 9,
 		clust_size     = 3,
 		y_max          = 31000,
@@ -11,7 +11,7 @@ desertores.registered_ores = {
 	},
 	{
 		ore            = "default:stone_with_coal",
-		clust_scarcity = 8 * 8 * 8,
+		clust_scarcity = 8 ^ 3,
 		clust_num_ores = 8,
 		clust_size     = 3,
 		y_max          = 64,
@@ -19,7 +19,7 @@ desertores.registered_ores = {
 	},
 	{
 		ore            = "default:stone_with_coal",
-		clust_scarcity = 12 * 12 * 12,
+		clust_scarcity = 12 ^ 3,
 		clust_num_ores = 30,
 		clust_size     = 5,
 		y_max          = -128,
@@ -29,7 +29,7 @@ desertores.registered_ores = {
 	-- Tin
 	{
 		ore            = "default:stone_with_tin",
-		clust_scarcity = 10 * 10 * 10,
+		clust_scarcity = 10 ^ 3,
 		clust_num_ores = 5,
 		clust_size     = 3,
 		y_max          = 31000,
@@ -37,7 +37,7 @@ desertores.registered_ores = {
 	},
 	{
 		ore            = "default:stone_with_tin",
-		clust_scarcity = 13 * 13 * 13,
+		clust_scarcity = 13 ^ 3,
 		clust_num_ores = 4,
 		clust_size     = 3,
 		y_max          = -64,
@@ -45,7 +45,7 @@ desertores.registered_ores = {
 	},
 	{
 		ore            = "default:stone_with_tin",
-		clust_scarcity = 10 * 10 * 10,
+		clust_scarcity = 10 ^ 3,
 		clust_num_ores = 5,
 		clust_size     = 3,
 		y_max          = -128,
@@ -55,7 +55,7 @@ desertores.registered_ores = {
 	-- Copper
 	{
 		ore            = "default:stone_with_copper",
-		clust_scarcity = 9 * 9 * 9,
+		clust_scarcity = 9 ^ 3,
 		clust_num_ores = 5,
 		clust_size     = 3,
 		y_max          = 31000,
@@ -63,7 +63,7 @@ desertores.registered_ores = {
 	},
 	{
 		ore            = "default:stone_with_copper",
-		clust_scarcity = 12 * 12 * 12,
+		clust_scarcity = 12 ^ 3,
 		clust_num_ores = 4,
 		clust_size     = 3,
 		y_max          = -64,
@@ -71,7 +71,7 @@ desertores.registered_ores = {
 	},
 	{
 		ore            = "default:stone_with_copper",
-		clust_scarcity = 9 * 9 * 9,
+		clust_scarcity = 9 ^ 3,
 		clust_num_ores = 5,
 		clust_size     = 3,
 		y_max          = -128,
@@ -81,7 +81,7 @@ desertores.registered_ores = {
 	-- Iron
 	{
 		ore            = "default:stone_with_iron",
-		clust_scarcity = 9 * 9 * 9,
+		clust_scarcity = 9 ^ 3,
 		clust_num_ores = 12,
 		clust_size     = 3,
 		y_max          = 31000,
@@ -89,7 +89,7 @@ desertores.registered_ores = {
 	},
 	{
 		ore            = "default:stone_with_iron",
-		clust_scarcity = 7 * 7 * 7,
+		clust_scarcity = 7 ^ 3,
 		clust_num_ores = 5,
 		clust_size     = 3,
 		y_max          = -128,
@@ -99,7 +99,7 @@ desertores.registered_ores = {
 	-- Gold
 	{
 		ore            = "default:stone_with_gold",
-		clust_scarcity = 13 * 13 * 13,
+		clust_scarcity = 13 ^ 3,
 		clust_num_ores = 5,
 		clust_size     = 3,
 		y_max          = 31000,
@@ -109,7 +109,7 @@ desertores.registered_ores = {
 	-- Mese crystal
 	{
 		ore            = "default:stone_with_mese",
-		clust_scarcity = 14 * 14 * 14,
+		clust_scarcity = 14 ^ 3,
 		clust_num_ores = 5,
 		clust_size     = 3,
 		y_max          = 31000,
@@ -119,7 +119,7 @@ desertores.registered_ores = {
 	-- Diamond
 	{
 		ore            = "default:stone_with_diamond",
-		clust_scarcity = 15 * 15 * 15,
+		clust_scarcity = 15 ^ 3,
 		clust_num_ores = 4,
 		clust_size     = 3,
 		y_max          = 31000,
@@ -129,17 +129,47 @@ desertores.registered_ores = {
 	-- Mese block
 	{
 		ore            = "default:mese",
-		clust_scarcity = 36 * 36 * 36,
+		clust_scarcity = 36 ^ 3,
 		clust_num_ores = 3,
 		clust_size     = 2,
 		y_max          = 31000,
 		y_min          = 1025,
+	},
+	
+	-- Diamond block
+	{
+		ore            = "default:diamondblock",
+		wherein        = "default:stone",
+		clust_scarcity = 29 ^ 3,
+		clust_num_ores = 3,
+		clust_size     = 2,
+		y_max          = 31000,
+		y_min          = 1025,
+	},
+	{
+		ore            = "default:diamondblock",
+		wherein        = {"default:stone", "default:desert_stone"},
+		clust_scarcity = 38 ^ 3,
+		clust_num_ores = 3,
+		clust_size     = 2,
+		y_max          = -1024,
+		y_min          = -2047,
+	},
+	{
+		ore            = "default:diamondblock",
+		wherein        = {"default:stone", "default:desert_stone"},
+		clust_scarcity = 29 ^ 3,
+		clust_num_ores = 4,
+		clust_size     = 3,
+		y_max          = -2048,
+		y_min          = -31000,
 	},
 }
 
 --Dense ores and more ores
 local moreores_path = core.get_modpath("moreores")
 local denseores_path = core.get_modpath("denseores")
+local lumpblocks_path = core.get_modpath("lumpblocks")
 
 if moreores_path then
 	table.insert(desertores.registered_ores, {
@@ -208,15 +238,6 @@ if moreores_path and denseores_path then
 		y_max          = 64,
 	})
 	table.insert(desertores.registered_ores, {
-		ore            = "denseores:large_mithril_ore",
-		clust_scarcity = moreores.mithril_chunk_size_high ^ 3,
-		clust_num_ores = moreores.mithril_ore_per_chunk_high,
-		clust_size     = moreores.mithril_clust_size_high,
-		y_min          = moreores.mithril_min_depth_high,
-		y_max          = moreores.mithril_max_depth_high,
-	})
-	table.insert(desertores.registered_ores, {
-		ore_type       = "scatter",
 		ore            = "denseores:large_silver_ore",
 		wherein        = "moreores:mineral_silver",
 		clust_scarcity = 12,
@@ -225,29 +246,35 @@ if moreores_path and denseores_path then
 		y_min          = -31000,
 		y_max          = 64,
 	})
+end
+
+if moreores_path and lumpblocks_path then
 	table.insert(desertores.registered_ores, {
-		ore            = "denseores:large_silver_ore",
-		clust_scarcity = moreores.silver_chunk_size_high ^ 3,
-		clust_num_ores = moreores.silver_ore_per_chunk_high,
-		clust_size     = moreores.silver_clust_size_high,
-		y_min          = moreores.silver_min_depth_high,
-		y_max          = moreores.silver_max_depth_high,
+		ore            = "lumpblocks:mithril_block",
+		wherein        = {"default:stone", "default:desert_stone"},
+		clust_scarcity = 39 ^ 3,
+		clust_num_ores = 2,
+		clust_size     = 1,
+		y_min          = moreores.mithril_min_depth_high,
+		y_max          = moreores.mithril_max_depth_high,
 	})
 	table.insert(desertores.registered_ores, {
-		ore            = "denseores:large_silver_ore",
-		clust_scarcity = moreores.silver_chunk_size ^ 3,
-		clust_num_ores = moreores.silver_ore_per_chunk,
-		clust_size     = moreores.silver_clust_size,
-		y_min          = moreores.silver_min_depth,
-		y_max          = moreores.silver_max_depth,
+		ore            = "lumpblocks:mithril_block",
+		wherein        = {"default:stone", "default:desert_stone"},
+		clust_scarcity = 39 ^ 3,
+		clust_num_ores = 2,
+		clust_size     = 1,
+		y_min          = moreores.mithril_min_depth,
+		y_max          = moreores.mithril_max_depth,
 	})
 	table.insert(desertores.registered_ores, {
-		ore            = "denseores:large_silver_ore",
-		clust_scarcity = moreores.silver_chunk_size_deep ^ 3,
-		clust_num_ores = moreores.silver_ore_per_chunk_deep,
-		clust_size     = moreores.silver_clust_size_deep,
-		y_min          = moreores.silver_min_depth_deep,
-		y_max          = moreores.silver_max_depth_deep
+		ore            = "lumpblocks:mithril_block",
+		wherein        = {"default:stone", "default:desert_stone"},
+		clust_scarcity = 30 ^ 3,
+		clust_num_ores = 3,
+		clust_size     = 2,
+		y_min          = moreores.mithril_min_depth_deep,
+		y_max          = moreores.mithril_max_depth_deep,
 	})
 end
 
