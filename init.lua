@@ -225,6 +225,24 @@ if denseores_path then
 		y_min          = -31000,
 		y_max          = -128,
 	})
+	table.insert(desertores.registered_ores, {
+		ore            = "default:mese",
+		wherein        = "denseores:large_mese_ore",
+		clust_scarcity = 36,
+		clust_num_ores = 1,
+		clust_size     = 1,
+		y_min          = -31000,
+		y_max          = -64,
+	})
+	table.insert(desertores.registered_ores, {
+		ore            = "default:diamondblock",
+		wherein        = "denseores:large_diamond_ore",
+		clust_scarcity = 38,
+		clust_num_ores = 1,
+		clust_size     = 1,
+		y_min          = -31000,
+		y_max          = -128,
+	})
 end
 
 if moreores_path and denseores_path then
@@ -246,6 +264,18 @@ if moreores_path and denseores_path then
 		y_min          = -31000,
 		y_max          = 64,
 	})
+	
+	if lumpblocks_path then
+		table.insert(desertores.registered_ores, {
+			ore            = "lumpblocks:mithril_block",
+			wherein        = "denseores:large_mithril_ore",
+			clust_scarcity = 39,
+			clust_num_ores = 1,
+			clust_size     = 1,
+			y_min          = -31000,
+			y_max          = 64,
+		})
+	end
 end
 
 if moreores_path and lumpblocks_path then
