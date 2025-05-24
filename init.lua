@@ -263,6 +263,6 @@ for _, def in ipairs(desertores.registered_ores) do
             "default:permafrost_with_stones",
             "default:cave_ice",
             "default:gravel"
-		}
+	}
 	core.register_ore(def)
 end
